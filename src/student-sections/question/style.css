@@ -1,0 +1,12 @@
+/* to disable nav in mobile & desktop */
+#mobile-nav {
+    display: none;
+}
+
+#vertical-nav {
+    display: none;
+}
+
+#mini-nav {
+    display: none;
+}

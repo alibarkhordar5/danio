@@ -1,0 +1,9 @@
+export { default as OldCircle } from './old';
+export { default as OldInputCircle } from './old-input';
+export { default as NewCircle } from './new';
+export { default as NewInputCircle } from './new-input';
+export { default as MultiColorCircle } from './multi-color';
+export { default as MultiColorMixedCircle } from './multi-color-mixed'
+export { default as TorPaperCircle } from './TorPaper'
+export { default as UnitCircle } from './Unit'
+export { default as UnEqualCircle } from './UnEqual'

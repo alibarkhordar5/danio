@@ -1,0 +1,11 @@
+@media(max-width:768px) {
+    .scale_container{
+        width: 128%;
+        transform: translateX(12%);
+    }
+    
+    .scale_container svg {
+       transform: scale(0.7); 
+    
+    }
+}

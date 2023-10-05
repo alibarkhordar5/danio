@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    direction: ltr;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 101%;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+      padding-top: 10px;
+  
+      /* margin-top: -30px; */
+    }
+    .container > div {
+      width: 100px;
+      height: 110px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+  }
+  

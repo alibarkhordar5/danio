@@ -1,0 +1,80 @@
+/* TEXT------------------------------ */
+
+/* hameye matn */
+.math_container {
+    display: inline-flex !important;
+    justify-content: flex-end !important;
+    margin: 20px auto !important;
+    font-size: .75rem !important;
+}
+
+/* fek konam faghat text farsi */
+.math_container mjx-math[class="MJX-TEX"] {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-wrap: wrap-reverse !important;
+    align-items: flex-end !important;
+    line-height: 100% !important;
+}
+
+/* alamat haye riazi */
+mjx-mo[class="mjx-n"] {}
+
+/* faghat digit ha */
+mjx-mn[class="mjx-n"] {
+    margin: auto 0px !important;
+}
+
+/* ghete text */
+mjx-mtext[class="mjx-n"] {
+    margin: auto 0px !important;
+}
+
+/* for text over fleshes */
+mjx-over {
+    margin-bottom: -10px !important;
+}
+
+/* for virgools */
+mjx-c[class="mjx-c2C"] {
+    margin-top: 8px !important;
+    margin-left: -2px !important;
+    margin-right: 5px !important;
+}
+
+/* for ragham */
+mjx-c[class*="TEX-AD-R"]::before {
+    padding: 0px !important;
+    padding-right: 10px !important;
+}
+
+/* in do ta for underline */
+mjx-munder {
+    margin-top: 6.5px !important;
+}
+
+mjx-munder>mjx-row {
+    display: flex !important;
+    margin-bottom: -10px !important;
+}
+
+/* for se noghte */
+mjx-c[class="mjx-c2E"] {
+    margin-top: 5px !important;
+}
+
+/* INPUT------------------------------ */
+
+input[class="input_mathjax"] {
+    border-radius: 8px !important;
+    padding: 10px 5px !important;
+    border: 1px solid black !important;
+    text-align: center !important;
+    font-family: Nazanin !important;
+}
+
+input[class="input_mathjax"]:focus,
+input[class="input_mathjax"]:hover {
+    border: 2px solid lightgreen !important;
+    outline: 10px !important;
+}

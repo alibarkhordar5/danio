@@ -1,0 +1,52 @@
+{
+    "keys": [
+        {
+            "lable": "1",
+            "value": "1"
+        },
+        {
+            "lable": "2",
+            "value": "2"
+        },
+        {
+            "lable": "3",
+            "value": "3"
+        },
+        {
+            "lable": "4",
+            "value": "4"
+        },
+        {
+            "lable": "5",
+            "value": "5"
+        },
+        {
+            "lable": "-",
+            "value": "-"
+        },
+        {
+            "lable": "6",
+            "value": "6"
+        },
+        {
+            "lable": "7",
+            "value": "7"
+        },
+        {
+            "lable": "8",
+            "value": "8"
+        },
+        {
+            "lable": "9",
+            "value": "9"
+        },
+        {
+            "lable": "0",
+            "value": "0"
+        },
+        {
+            "lable": "+",
+            "value": "+"
+        }
+    ]
+}

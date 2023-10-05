@@ -1,0 +1,22 @@
+.scrollable::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scrollable::-webkit-scrollbar:vertical {
+    width: 20px;
+}
+
+.scrollable::-webkit-scrollbar:horizontal {
+    height: 20px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 151, 244);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(184, 151, 244, 0.5);
+}

@@ -1,0 +1,19 @@
+.Button_container {
+    transition: 0.5s all !important;
+    cursor: pointer;
+}
+
+.Button_container div {
+    /* width: 100% !important; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Button_container div[id="fruit"] {
+    width: 50% !important;
+}
+
+/* .Button_container:hover{
+    background: rgba(91, 228, 155, 1) !important;
+} */
